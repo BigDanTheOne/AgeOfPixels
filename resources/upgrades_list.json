@@ -1,0 +1,41 @@
+[
+ {
+  "name": "stronger sword 1",
+  "building": "barracks",
+  "bonuses": {
+   "damage": 10,
+   "speed": -2
+  },
+  "image": "stronger_sword_1.png",
+  "cost": {
+   "gold": 100,
+   "food": 0,
+   "wood": 0,
+   "stone": 0
+  },
+  "influenced_units": [
+   "Swordsman"
+  ],
+  "menu_position": 0
+ },
+ {
+  "name": "faster boots",
+  "building": "barracks",
+  "bonuses": {
+   "speed": 5
+  },
+  "image": "faster_boots.png",
+  "cost": {
+   "gold": 0,
+   "food": 200,
+   "wood": 0,
+   "stone": 0
+  },
+  "influenced_units": [
+   "Swordsman",
+   "Villager",
+   "Archer"
+  ],
+  "menu_position": 1
+ }
+]
